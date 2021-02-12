@@ -1,0 +1,12 @@
+--
+-- Mux 8 x 1, 8 sinais de 8 bits.
+--
+
+library IEEE.
+use IEEE.std_logic_1164.all;
+
+entity Mux_8X1 is port
+(
+
+);
+end Mux_8X1;

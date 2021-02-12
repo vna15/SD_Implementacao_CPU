@@ -1,0 +1,16 @@
+--
+--		Projeto ULA
+--
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity ULA is port
+(
+
+);
+end ULA;
+
+architecture hardware of ULA is
+
+end hardware;
