@@ -91,12 +91,12 @@ begin
 		end if;
         -----Saidas do estado "JNZ" 
         when stJNZ =>
-		if flagULA= '0' then estado <= clearULA;
+		if flagULA= '1' then estado <= clearULA;
           	else	estado <= busca;
 		end if;
         -----Saidas do estado "JZ" 
         when stJZ =>
-		if flagULA= '1' then estado <= clearULA;
+		if flagULA= '0' then estado <= clearULA;
           	else	estado <= busca;
 		end if;
         -----Saidas do estado "clearCarry" 
