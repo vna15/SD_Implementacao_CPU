@@ -137,8 +137,8 @@ begin
   end process ;
   
 with estado select
-	PC_clr <= '0' when inicio,
-		  '1' when others;
+	PC_clr <= '1' when inicio,
+		  '0' when others;
 with estado select
 	PC_cnt <= '1' when busca,
 		  '0' when others;

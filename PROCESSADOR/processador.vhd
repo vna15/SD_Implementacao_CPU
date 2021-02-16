@@ -126,7 +126,7 @@ decodeOP : decodificador port map(aux_IR(15 downto 12), '1', Q(0) => aux_opHLT, 
                                   Q(7) => aux_opOR, Q(8) => aux_opNOT, Q(9) => aux_opXOR, Q(10) => aux_opCMP, Q(11) => aux_opJMP, Q(12) => aux_opJNC, Q(13) => aux_opJC, Q(14) => aux_opJNZ, Q(15) => aux_opJZ);
 
 
-blocoControle : mde port map(clk, aux_opHLT, aux_opLDR, aux_opSTR, aux_opMOV, aux_opADD, aux_opSUB, aux_opAND, aux_opOR, aux_opNOT, aux_opXOR, aux_opCMP, aux_opJMP, aux_opJNC, aux_opJC, aux_opJNZ, aux_opJZ, aux_flagCarry, aux_flagULA,
+blocoControle : mde port map(clk, aux_opHLT, aux_opLDR, aux_opSTR, aux_opMOV, aux_opADD, aux_opSUB, aux_opAND, aux_opOR, aux_opNOT, aux_opXOR, aux_opCMP, aux_opJMP, aux_opJNC, aux_opJC, aux_opJNZ, aux_opJZ, aux_out_carry, aux_flagULA,
                              aux_SEL_addr_RF_escrita, aux_SEL_RF_2_SUM, aux_SEL_RF_leitura_1, aux_en_RF_leitura_1, aux_en_RF_leitura_2, aux_en_RF_escrita, aux_D_en, aux_D_wr, aux_flagCarry_ld, aux_flagCarry_clr, aux_flagULA_ld, aux_flagULA_clr, aux_PC_cnt, aux_PC_ld, aux_PC_clr, aux_IR_ld, aux_I_rd,
 									  aux_SEL_RF, aux_SEL_ULA, estadoAtual);
 									  
