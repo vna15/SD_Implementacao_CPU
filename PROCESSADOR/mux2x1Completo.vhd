@@ -13,6 +13,7 @@ architecture ARKMUX of mux2x1C is
      begin
 	with sel select
   	Z<= A0 when '0',
-	    A1 when '1';
+	    A1 when '1',
+	    "0000" when others;
 	  
 end ARKMUX;

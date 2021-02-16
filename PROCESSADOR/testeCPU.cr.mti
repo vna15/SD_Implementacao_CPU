@@ -1,0 +1,235 @@
+C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemoinst.mif {0 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemoinst.mif
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+** Error: C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemoinst.mif(17): near "WIDTH": syntax error
+
+} {4.0 5.0} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity memoData
+-- Compiling architecture SYN of memodata
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX_SUM_C
+-- Compiling architecture ckt_MUX_SUM_C of MUX_SUM_C
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Or_8_bits
+-- Compiling architecture hardware of Or_8_bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Not_8_bits
+-- Compiling architecture hardware of Not_8_bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decodificador
+-- Compiling architecture ckt of decodificador
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity memoInst
+-- Compiling architecture SYN of memoinst
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2x1
+-- Compiling architecture ckt_mux2x1 of mux2x1
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mde
+-- Compiling architecture logica of mde
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Registrador8bits
+-- Compiling architecture ckt of Registrador8bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux3x1
+-- Compiling architecture ARKMUX of mux3x1
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Somador8bits
+-- Compiling architecture ckt of Somador8bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2x1C
+-- Compiling architecture ARKMUX of mux2x1C
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ffd
+-- Compiling architecture ckt of ffd
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Registrador8bitsPC
+-- Compiling architecture ckt of Registrador8bitsPC
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparador8bit
+-- Compiling architecture ckt_comparador8bits of comparador8bit
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ULA
+-- Compiling architecture hardware of ULA
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_8_bits
+-- Compiling architecture hardware of adder_8_bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bancoderegistradores
+-- Compiling architecture ckt of bancoderegistradores
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplexador
+-- Compiling architecture ckt of multiplexador
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux_8X1
+-- Compiling architecture hardware of Mux_8X1
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Xor_8_bits
+-- Compiling architecture hardware of Xor_8_bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity contadordeprograma
+-- Compiling architecture ckt of contadordeprograma
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemodata.mif {0 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemodata.mif
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+** Error: C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/datamemodata.mif(17): near "WIDTH": syntax error
+
+} {4.0 5.0} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity processador
+-- Compiling architecture ckt of processador
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity And_8_bits
+-- Compiling architecture hardware of And_8_bits
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Registrador1bit
+-- Compiling architecture ckt of Registrador1bit
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity complementoA2
+-- Compiling architecture hardware of complementoA2
+
+} {} {}} C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Registrador16bits
+-- Compiling architecture ckt of Registrador16bits
+
+} {} {}}

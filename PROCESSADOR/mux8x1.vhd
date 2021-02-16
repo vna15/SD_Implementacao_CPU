@@ -16,13 +16,12 @@ end Mux_8X1;
 architecture hardware of Mux_8X1 is
 	begin
 		with s select																												-- Lógica do Mux.
-					Q <= Adder_Out when "000",																					-- Cod para selecionar a Soma
-						  Sub_Out when "001",																					-- Cod para selecionar a Subtração
-						  And_Out when "010",																					-- Cod para selecionar a And
-						  Or_Out when "011",																						-- Cod para selecionar a Or
-						  Not_Out when "100",																					-- Cod para selecionar a Not
-						  Xor_Out when "101",																					-- Cod para selecionar a Xor
-						  Cmp_Out when "110",																					-- Cod para selecionar o Comparador
+					Q <= Adder_Out when "000",																					-- Cod para selecionar a Soma																				-- Cod para selecionar a Subtração
+						  And_Out when "001",																					-- Cod para selecionar a And
+						  Or_Out when "010",																						-- Cod para selecionar a Or
+						  Not_Out when "011",																					-- Cod para selecionar a Not
+						  Xor_Out when "100",																					-- Cod para selecionar a Xor
+						  Cmp_Out when "101",																					-- Cod para selecionar o Comparador
 						  "00000000" when others;
 					
 end hardware; 

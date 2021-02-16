@@ -1,0 +1,1134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/moham/Desktop/mdeCPU
+Eadder_8_bits
+Z0 w1613252347
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 858
+Z3 dC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR
+Z4 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd
+Z5 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd
+l0
+L8 1
+V7?RLoY6=acnnckfZPnAaD3
+!s100 X5l?>3596Wk0bI2EhFUQS1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1613448725
+!i10b 1
+Z8 !s108 1613448725.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd|
+Z10 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/adder8bits.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Ahardware
+R1
+R2
+DEx4 work 12 adder_8_bits 0 22 7?RLoY6=acnnckfZPnAaD3
+!i122 858
+l20
+L18 21
+V^5<lJC[6XcLOMKdF3J0;U1
+!s100 ^^8bDGGz:32aFM5?ezG852
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_8_bits
+R0
+Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 859
+R3
+Z15 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd
+Z16 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd
+l0
+L9 1
+Vn_UUV?iKIMH?HE^GWdJ^30
+!s100 ?md6Kf9[W4QIZeXn?0^]03
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd|
+Z18 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/and8bits.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R13
+R14
+R1
+R2
+DEx4 work 10 and_8_bits 0 22 n_UUV?iKIMH?HE^GWdJ^30
+!i122 859
+l17
+Z19 L16 4
+VL]UM]ng9=]`PS=T5l60S:1
+!s100 IEZ4zBDA>YHH`Y9IzdRHh2
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ebancoderegistradores
+R0
+R1
+R2
+!i122 860
+R3
+Z20 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd
+Z21 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd
+l0
+L4 1
+V>mB1W=M14S71@Q=[MA7?o1
+!s100 02A;Q3d>Kn]1a]Pa8kKVb1
+R6
+32
+Z22 !s110 1613448726
+!i10b 1
+Z23 !s108 1613448726.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd|
+Z25 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/bancoderegistradores.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 20 bancoderegistradores 0 22 >mB1W=M14S71@Q=[MA7?o1
+!i122 860
+l35
+L11 98
+V`;zjzV1bXdlo7KBQ97KR^1
+!s100 PgMR@ViA8XeDa]E=_XPiR3
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Ecomparador8bit
+Z26 w1613448888
+R1
+R2
+!i122 886
+R3
+Z27 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd
+Z28 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd
+l0
+L22 1
+V@6SShnE16?Qb2Ro?cjcGf3
+!s100 SHl7MQRo<HlAbWeK6mGDX3
+R6
+32
+Z29 !s110 1613448894
+!i10b 1
+Z30 !s108 1613448894.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd|
+Z32 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/cmp8bits.vhd|
+!i113 1
+R11
+R12
+Ackt_comparador8bits
+R1
+R2
+Z33 DEx4 work 14 comparador8bit 0 22 @6SShnE16?Qb2Ro?cjcGf3
+!i122 886
+l33
+L28 29
+VcE^<:c6hA]@i^7RX0TTE<2
+!s100 bW@7E]]iTog4^ER6oH]L72
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Ecomplementoa2
+R0
+R1
+R2
+!i122 863
+R3
+Z34 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd
+Z35 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd
+l0
+L8 1
+VV^fDB?DnUiL`OKCUUIhW[3
+!s100 6hTi;nI@84NRMa]j2o@[70
+R6
+32
+Z36 !s110 1613448727
+!i10b 1
+Z37 !s108 1613448727.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd|
+Z39 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/complementoA2.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R1
+R2
+DEx4 work 13 complementoa2 0 22 V^fDB?DnUiL`OKCUUIhW[3
+!i122 863
+l17
+L15 39
+VhT[`GHke=P2:MSPfTXB^[1
+!s100 De1]zLEglTaV_oHGj=nIV2
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Econtadordeprograma
+R0
+R1
+R2
+!i122 864
+R3
+Z40 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd
+Z41 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd
+l0
+L4 1
+Vk8hVXkTB<Q7cU]bLKGiQZ1
+!s100 oRCQzgDn<<8B<`2h=`:n82
+R6
+32
+R36
+!i10b 1
+R37
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd|
+Z43 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/contadordeprograma.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 18 contadordeprograma 0 22 k8hVXkTB<Q7cU]bLKGiQZ1
+!i122 864
+l28
+L10 28
+VhZbUMJYU1o6N>3>Jc?hWa2
+!s100 17GgF2cceZDfJLReSo[ma3
+R6
+32
+R36
+!i10b 1
+R37
+R42
+R43
+!i113 1
+R11
+R12
+Edecodificador
+R0
+R1
+R2
+!i122 866
+R3
+Z44 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd
+Z45 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd
+l0
+L4 1
+V<VjEDbch9anQJAC1@UaJJ2
+!s100 _eUj]lM4?I391eaY[f1@P3
+R6
+32
+Z46 !s110 1613448728
+!i10b 1
+Z47 !s108 1613448728.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd|
+Z49 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/decode.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 13 decodificador 0 22 <VjEDbch9anQJAC1@UaJJ2
+!i122 866
+l14
+L10 26
+V<oUV^_HGJJF]>cP8U4LG[1
+!s100 [N?BTZ1o^E6?iWYD`8L2K3
+R6
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R11
+R12
+Effd
+Z50 w1613436346
+R1
+R2
+!i122 867
+R3
+Z51 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd
+Z52 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd
+l0
+L5 1
+V;[@[KQkSzGBKz^92bedMb1
+!s100 HcNnf8gW^aBWJJX<8`mFC2
+R6
+32
+Z53 !s110 1613448729
+!i10b 1
+R47
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd|
+Z55 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ffd.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 3 ffd 0 22 ;[@[KQkSzGBKz^92bedMb1
+!i122 867
+l23
+L15 29
+VHZo0B^:>`3Chn@jll?b2>0
+!s100 H34olFP4?7nYnOVJYgL:71
+R6
+32
+R53
+!i10b 1
+R47
+R54
+R55
+!i113 1
+R11
+R12
+Emde
+Z56 w1613436518
+R1
+R2
+!i122 865
+R3
+Z57 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd
+Z58 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd
+l0
+L4 1
+VeV`6>T0ENj6[zceV7A6[Z3
+!s100 m7gdU_mU5JAM154Mi4^]53
+R6
+32
+R46
+!i10b 1
+R37
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd|
+Z60 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/controle.vhd|
+!i113 1
+R11
+R12
+Alogica
+R1
+R2
+DEx4 work 3 mde 0 22 eV`6>T0ENj6[zceV7A6[Z3
+!i122 865
+l19
+L13 234
+VgI@C>^PbP26_^I@e5WzEg1
+!s100 OZ60?CM]ko0>Re_fW94A]3
+R6
+32
+R46
+!i10b 1
+R37
+R59
+R60
+!i113 1
+R11
+R12
+Ememodata
+R0
+R1
+R2
+!i122 868
+R3
+Z61 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd
+Z62 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd
+l0
+Z63 L42 1
+VZC5l:jLMDU=SHHSiVj[YO3
+!s100 P0H?>9KkADWfRQ;CnMjIe2
+R6
+32
+R53
+!i10b 1
+Z64 !s108 1613448729.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd|
+Z66 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoData.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 8 memodata 0 22 ZC5l:jLMDU=SHHSiVj[YO3
+!i122 868
+l87
+L54 65
+V77Me?[]o9S029FD;F?;Cd3
+!s100 DL;7_HEaj23h@1jd6J9Ok0
+R6
+32
+R53
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R11
+R12
+Ememoinst
+R0
+R1
+R2
+!i122 869
+R3
+Z67 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd
+Z68 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd
+l0
+R63
+V7oU]EjB?eHONfEBGQIkCj0
+!s100 8B>G5VidRN`NeH5CRk`bg1
+R6
+32
+R53
+!i10b 1
+R64
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd|
+Z70 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/memoInst.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 8 memoinst 0 22 7oU]EjB?eHONfEBGQIkCj0
+!i122 869
+l82
+L52 59
+VbJTeWb8gaoohizXEX_1`^3
+!s100 Q]@>?GW`1LgW10QZebER13
+R6
+32
+Z71 !s110 1613448730
+!i10b 1
+R64
+R69
+R70
+!i113 1
+R11
+R12
+Emultiplexador
+R0
+R1
+R2
+!i122 861
+R3
+Z72 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd
+Z73 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd
+l0
+L4 1
+Vo4B_SXeKEEC@FA`JPV:i40
+!s100 1zzYb1f;T8Z]Wf<a7_4nm3
+R6
+32
+R22
+!i10b 1
+R23
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd|
+Z75 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/buffer.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 13 multiplexador 0 22 o4B_SXeKEEC@FA`JPV:i40
+!i122 861
+l11
+L9 9
+V0_L?O9m97NNYU[Q<WoIG^3
+!s100 >0o4go`4JF;EC8=7kZIOS0
+R6
+32
+R22
+!i10b 1
+R23
+R74
+R75
+!i113 1
+R11
+R12
+Emux2x1
+R0
+R1
+R2
+!i122 870
+R3
+Z76 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd
+Z77 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd
+l0
+Z78 L16 1
+VjK7HTg8WGilKM[II@n0>;1
+!s100 OE;F=O:57P24c6dKY5=jj2
+R6
+32
+R71
+!i10b 1
+Z79 !s108 1613448730.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd|
+Z81 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1.vhd|
+!i113 1
+R11
+R12
+Ackt_mux2x1
+R1
+R2
+DEx4 work 6 mux2x1 0 22 jK7HTg8WGilKM[II@n0>;1
+!i122 870
+l25
+L23 7
+VQ1hLRVSdh@Cf;a2?;eD4h2
+!s100 ]zbZ4LV[fC3Z789kIjaXT0
+R6
+32
+R71
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R11
+R12
+Emux2x1c
+Z82 w1613269711
+R1
+R2
+!i122 871
+R3
+Z83 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd
+Z84 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd
+l0
+L4 1
+VdjWXK6OM7Q;mCP8z9Vl>43
+!s100 `4c_XXi=i[AK2O>L75aJO1
+R6
+32
+R71
+!i10b 1
+R79
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd|
+Z86 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux2x1Completo.vhd|
+!i113 1
+R11
+R12
+Aarkmux
+R1
+R2
+DEx4 work 7 mux2x1c 0 22 djWXK6OM7Q;mCP8z9Vl>43
+!i122 871
+l13
+L11 9
+VfXC6keW;L_126a]8GVGGG1
+!s100 z<BihW[Z[M0cOPa:iVVJ`2
+R6
+32
+R71
+!i10b 1
+R79
+R85
+R86
+!i113 1
+R11
+R12
+Emux3x1
+R0
+R1
+R2
+!i122 872
+R3
+Z87 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd
+Z88 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd
+l0
+L4 1
+VLNHWN6Enhz0U1[J2J4QX93
+!s100 =C^VCT]MR@;P?NkTgj_mi1
+R6
+32
+R71
+!i10b 1
+R79
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd|
+Z90 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux3x1.vhd|
+!i113 1
+R11
+R12
+Aarkmux
+R1
+R2
+DEx4 work 6 mux3x1 0 22 LNHWN6Enhz0U1[J2J4QX93
+!i122 872
+l13
+L11 8
+VA3Wid=AE??LROYObd:9Jz0
+!s100 [V?Xn_m:gFiQBk5GCMXlc1
+R6
+32
+Z91 !s110 1613448731
+!i10b 1
+R79
+R89
+R90
+!i113 1
+R11
+R12
+Emux_8x1
+Z92 w1613446833
+R1
+R2
+!i122 873
+R3
+Z93 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd
+Z94 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd
+l0
+L8 1
+Vo=l:b`aKQ:em1:7ej5aE12
+!s100 _?SjHdTO1>1J5Y1o203X_2
+R6
+32
+R91
+!i10b 1
+Z95 !s108 1613448731.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd|
+Z97 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/mux8x1.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R1
+R2
+DEx4 work 7 mux_8x1 0 22 o=l:b`aKQ:em1:7ej5aE12
+!i122 873
+l17
+L16 12
+Vgz3R;HkHER77FhS51<D0K0
+!s100 JhzW?`FXAMYN:1KUFzf>73
+R6
+32
+R91
+!i10b 1
+R95
+R96
+R97
+!i113 1
+R11
+R12
+Emux_sum_c
+R0
+R1
+R2
+!i122 874
+R3
+Z98 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd
+Z99 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd
+l0
+R78
+VjaGzdJkNO4ECLKj5CbJz>0
+!s100 Z>=dYdNYYTzNboXgMUQV<2
+R6
+32
+R91
+!i10b 1
+R95
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd|
+Z101 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/muxsumC.vhd|
+!i113 1
+R11
+R12
+Ackt_mux_sum_c
+R1
+R2
+DEx4 work 9 mux_sum_c 0 22 jaGzdJkNO4ECLKj5CbJz>0
+!i122 874
+l35
+L24 72
+VX29KcC2VhekSok68?cSAK0
+!s100 Ak8i?PYemn3gZ<oD6l:241
+R6
+32
+R91
+!i10b 1
+R95
+R100
+R101
+!i113 1
+R11
+R12
+Enot_8_bits
+R0
+R13
+R14
+R1
+R2
+!i122 875
+R3
+Z102 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd
+Z103 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd
+l0
+L9 1
+VoPYmP^fJ8cE1W`KU<@jb42
+!s100 zgW5>i;A;nhOI=eVZz5o83
+R6
+32
+Z104 !s110 1613448732
+!i10b 1
+R95
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd|
+Z106 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/not8bits.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R13
+R14
+R1
+R2
+DEx4 work 10 not_8_bits 0 22 oPYmP^fJ8cE1W`KU<@jb42
+!i122 875
+l17
+R19
+Vje]fX?Vz29[ngNZ[Q0GH`1
+!s100 V9]]=UCO[omaUL=_CXm1T0
+R6
+32
+R104
+!i10b 1
+R95
+R105
+R106
+!i113 1
+R11
+R12
+Eor_8_bits
+R0
+R13
+R14
+R1
+R2
+!i122 876
+R3
+Z107 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd
+Z108 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd
+l0
+L9 1
+VHFQOMXNHEabE:jfj2eDa?3
+!s100 ^GGWN`@;WlL]0I:L;9F3B1
+R6
+32
+R104
+!i10b 1
+Z109 !s108 1613448732.000000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd|
+Z111 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/or8bits.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R13
+R14
+R1
+R2
+DEx4 work 9 or_8_bits 0 22 HFQOMXNHEabE:jfj2eDa?3
+!i122 876
+l17
+R19
+Vl0G8f5_`6<9a16og;CAlE0
+!s100 6M=`XOPSnZ0aX0gD@:XzJ0
+R6
+32
+R104
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R11
+R12
+Eprocessador
+Z112 w1613439643
+R1
+R2
+!i122 877
+R3
+Z113 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd
+Z114 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd
+l0
+L4 1
+VRbRZTRPho5lUT@2go^CHK0
+!s100 gL0QezQ0DFFeoTSYFTO@l0
+R6
+32
+R104
+!i10b 1
+R109
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd|
+Z116 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/processador.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 11 processador 0 22 RbRZTRPho5lUT@2go^CHK0
+!i122 877
+l114
+L11 143
+V4j1jS^9C6H3I>69zlE13]1
+!s100 TW;1P8MCoV:UQ_5GRT7nP1
+R6
+32
+R104
+!i10b 1
+R109
+R115
+R116
+!i113 1
+R11
+R12
+Eregistrador16bits
+R0
+R1
+R2
+!i122 880
+R3
+Z117 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd
+Z118 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd
+l0
+L4 1
+VV`@A3[=nf9?HA<Gm<=>_Y1
+!s100 RH9E:>n]9k=Dn8^boo<S22
+R6
+32
+Z119 !s110 1613448733
+!i10b 1
+Z120 !s108 1613448733.000000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd|
+Z122 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg16bits.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 17 registrador16bits 0 22 V`@A3[=nf9?HA<Gm<=>_Y1
+!i122 880
+l19
+L10 63
+V7Gezz:@dDlDEKjN[<k=dU0
+!s100 1DK@d@nNgGo5N>ga5BGB`3
+R6
+32
+R119
+!i10b 1
+R120
+R121
+R122
+!i113 1
+R11
+R12
+Eregistrador1bit
+Z123 w1613439116
+R1
+R2
+!i122 884
+R3
+Z124 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd
+Z125 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd
+l0
+L5 1
+VcCCdJ6fFKFJfSbaF@GbFf2
+!s100 d2^9KK4l]HRoVUHfmJb8F0
+R6
+32
+Z126 !s110 1613448736
+!i10b 1
+Z127 !s108 1613448735.000000
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd|
+Z129 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg1bit.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 15 registrador1bit 0 22 cCCdJ6fFKFJfSbaF@GbFf2
+!i122 884
+l19
+L11 16
+VVd6SDoUQ>M3Z6mbUOTGM=0
+!s100 ?C6LC[f4ZJn?e?`W4NzBW2
+R6
+32
+R126
+!i10b 1
+R127
+R128
+R129
+!i113 1
+R11
+R12
+Eregistrador8bits
+R0
+R1
+R2
+!i122 878
+R3
+Z130 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd
+Z131 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd
+l0
+L5 1
+Vg;6ReiJz^6E=m?HoZ]J^>2
+!s100 2HEkAfzOV=X[V_<^k7WM]3
+R6
+32
+R119
+!i10b 1
+R109
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd|
+Z133 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 16 registrador8bits 0 22 g;6ReiJz^6E=m?HoZ]J^>2
+!i122 878
+l31
+L13 76
+VNzXjfaJVz>UE4iKMj74[@3
+!s100 aO<:lIbfg3IJTAQ^5Oioe1
+R6
+32
+R119
+!i10b 1
+R109
+R132
+R133
+!i113 1
+R11
+R12
+Eregistrador8bitspc
+R0
+R1
+R2
+!i122 879
+R3
+Z134 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd
+Z135 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd
+l0
+L5 1
+V6hz@23SBUXRdIO`@Fggo]2
+!s100 jfz2[G;0W:E5aogZ`7h=I1
+R6
+32
+R119
+!i10b 1
+R120
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd|
+Z137 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/reg8PC.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 18 registrador8bitspc 0 22 6hz@23SBUXRdIO`@Fggo]2
+!i122 879
+l31
+L13 97
+VAmP7<Hl<C?Yak12HaR@D[0
+!s100 SSV]^lk0bjE?b8GXY>LhK2
+R6
+32
+R119
+!i10b 1
+R120
+R136
+R137
+!i113 1
+R11
+R12
+Esomador8bits
+R0
+R1
+R2
+!i122 881
+R3
+Z138 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd
+Z139 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd
+l0
+L4 1
+VF:3mOJi:8bQVS>Z?DINQZ3
+!s100 d<Q`W`A31^mMLd3V1`DDS1
+R6
+32
+Z140 !s110 1613448734
+!i10b 1
+R120
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd|
+Z142 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/somador8bits.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 12 somador8bits 0 22 F:3mOJi:8bQVS>Z?DINQZ3
+!i122 881
+l15
+L11 25
+V<d58b9g]KzQ<=RTEl;1=61
+!s100 ;fRbka:VjGPTb2BgM45ni2
+R6
+32
+R140
+!i10b 1
+R120
+R141
+R142
+!i113 1
+R11
+R12
+Eula
+R0
+R1
+R2
+!i122 882
+R3
+Z143 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd
+Z144 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd
+l0
+L8 1
+Vf<DoENB0glA9C=cknj0b[1
+!s100 24>>@J]YRAhn7PI2PS8]B0
+R6
+32
+R140
+!i10b 1
+Z145 !s108 1613448734.000000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd|
+Z147 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/ULA.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R1
+R2
+DEx4 work 3 ula 0 22 f<DoENB0glA9C=cknj0b[1
+!i122 882
+l95
+L18 93
+VfXdQY`>OoDLK8V`35a[H20
+!s100 EzXU@d3Y;^8M5R;NgEK==2
+R6
+32
+R140
+!i10b 1
+R145
+R146
+R147
+!i113 1
+R11
+R12
+Exor_8_bits
+R0
+R13
+R14
+R1
+R2
+!i122 883
+R3
+Z148 8C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd
+Z149 FC:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd
+l0
+L9 1
+VWjii2oDAOLT=[kkFR?7UY0
+!s100 PemU8`Z;o40:l10OPJncU2
+R6
+32
+Z150 !s110 1613448735
+!i10b 1
+R145
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd|
+Z152 !s107 C:/Users/moham/Desktop/SD_Implementacao_CPU-main/PROCESSADOR/xor8bits.vhd|
+!i113 1
+R11
+R12
+Ahardware
+R13
+R14
+R1
+R2
+DEx4 work 10 xor_8_bits 0 22 Wjii2oDAOLT=[kkFR?7UY0
+!i122 883
+l17
+R19
+V:9ahdnzB?A96@HSbD=83Y0
+!s100 BVj=zUc9C<_gGNZVMRa_l0
+R6
+32
+R150
+!i10b 1
+R145
+R151
+R152
+!i113 1
+R11
+R12

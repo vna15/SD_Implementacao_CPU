@@ -210,11 +210,11 @@ with estado select
 				'1' when stCMP,
 		 		'0' when others;
 with estado select
-	flagCarry_clr <= 	'1' when clearCarry,
-		 		'0' when others;
+	flagCarry_clr <= 	'0' when clearCarry,
+		 		'1' when others;
 with estado select
-	flagULA_clr <= 		'1' when clearULA,
-		 		'0' when others;
+	flagULA_clr <= 		'0' when clearULA,
+		 		'1' when others;
 
 with estado select
 	SEL_ULA <= 		"000" when stADD,

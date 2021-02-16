@@ -4,7 +4,8 @@ use ieee.std_logic_1164.all;
 entity processador is
     port (clk : in std_logic;
 	       estadoAtual : out std_logic_vector(4 downto 0);
-			 IR : out std_logic_vector(15 downto 0));
+			 IR : out std_logic_vector(15 downto 0);
+			ULA_out: out std_logic_vector(7 downto 0));
 end processador;
 
 architecture ckt of processador is
@@ -35,6 +36,12 @@ component Registrador16bits is
   port (X : in  std_logic_vector (15 downto 0);
         ld, clr, clk : in std_logic;
         Q : out std_logic_vector (15 downto 0));
+end component;
+
+component Registrador1bit is
+  port (X : in  std_logic;
+        ld, clr, clk : in std_logic;
+        Q : out std_logic);
 end component;
 
 component decodificador is
@@ -120,11 +127,13 @@ contadorPrograma : contadordeprograma port map(aux_pc_cnt, aux_pc_clr, clk, aux_
 
 blocoULA : ULA port map(aux_REGB, aux_REGC, aux_SEL_ULA, aux_seL_RF_2_SUM, aux_out_ULA, aux_carry);
 
-regCarry : ffd port map(aux_flagCarry_ld, aux_carry, '1', aux_flagCarry_clr, aux_out_carry); 
+--regCarry : ffd port map(aux_flagCarry_ld, aux_carry, '1', aux_flagCarry_clr, aux_out_carry); 
+regCarry : Registrador1bit port map(aux_carry, aux_flagCarry_ld,aux_flagCarry_clr, clk, aux_out_carry); 
 
 ula_or <= aux_out_ULA(0) or aux_out_ULA(1) or aux_out_ULA(2) or aux_out_ULA(3) or aux_out_ULA(4) or aux_out_ULA(5) or aux_out_ULA(6) or aux_out_ULA(7);
 
-regULA : ffd port map(aux_flagULA_ld, ula_or, '1', aux_flagULA_clr, aux_flagULA);
+-- regULA : ffd port map( aux_flagULA_ld, ula_or, '1', aux_flagULA_clr, aux_flagULA);
+regULA : Registrador1bit port map( ula_or, aux_flagULA_ld, aux_flagULA_clr, clk, aux_flagULA);
 
 mux31 : mux3x1 port map(aux_REGB, aux_memo_data, aux_out_ULA, aux_SEL_RF, aux_out_mux31);
 
@@ -139,6 +148,7 @@ memoInstrucao : memoInst port map(aux_instrucao, clk, data_memoInst);
 memoDados : memoData port map(aux_IR(7 downto 0), clk, aux_REGB, aux_D_wr, aux_memo_data);
 
 IR <= aux_IR;
+ULA_out <= aux_out_ULA;
 
 end ckt;
 
