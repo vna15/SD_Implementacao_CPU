@@ -25,7 +25,7 @@ architecture hardware of ULA is
 	
 	component Mux_8X1
 		port(
-			Adder_Out, Sub_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);
+			Adder_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);
 			s: in std_logic_vector(2 downto 0);
 			Q: out std_logic_vector(7 downto 0)		
 		);
@@ -98,7 +98,7 @@ end component;
 		x2: Or_8_bits PORT MAP(B, C, Out_or);
 		x3: Xor_8_bits PORT MAP(B, C, Out_xor);
 		x4: Not_8_bits PORT MAP(C, Out_not);
-		x5: Mux_8X1 PORT MAP(Out_sum, Out_sum, Out_and, Out_or, Out_not, Out_xor, cmp_Out, S_full, Q);-- Existe sinais pré determinados para a simulação fluir.B,
+		x5: Mux_8X1 PORT MAP(Out_sum, Out_and, Out_or, Out_not, Out_xor, cmp_Out, S_full, Q);-- Existe sinais pré determinados para a simulação fluir.B,
 		x6: comparador8bit PORT MAP(B, C, cmp_Out);
 		x7: MUX_SUM_C PORT MAP(C, C_A2, SEL_RF_2_SUM, REGC);
 		x8: complementoA2 PORT MAP(C, C_A2);

@@ -65,6 +65,13 @@ component ULA is port
 );
 end component;
 
+component complementoA2 is port
+(
+	D: in std_logic_vector(7 downto 0);													-- Entradas para o complemento para 2.
+	K: out std_logic_vector(7 downto 0)													-- Saída do sistema.
+);
+end component;
+
 component mux3x1 is
    port(A0,A1,A2 : in std_logic_vector(7 downto 0);
 	     sel : in std_logic_vector(1 downto 0);    
@@ -125,7 +132,9 @@ blocoControle : mde port map(clk, aux_opHLT, aux_opLDR, aux_opSTR, aux_opMOV, au
 									  
 contadorPrograma : contadordeprograma port map(aux_pc_cnt, aux_pc_clr, clk, aux_pc_ld, aux_IR(7 downto 0), aux_instrucao);
 
+
 blocoULA : ULA port map(aux_REGB, aux_REGC, aux_SEL_ULA, aux_seL_RF_2_SUM, aux_out_ULA, aux_carry);
+
 
 --regCarry : ffd port map(aux_flagCarry_ld, aux_carry, '1', aux_flagCarry_clr, aux_out_carry); 
 regCarry : Registrador1bit port map(aux_carry, aux_flagCarry_ld,aux_flagCarry_clr, clk, aux_out_carry); 

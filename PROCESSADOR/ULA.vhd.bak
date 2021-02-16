@@ -25,7 +25,7 @@ architecture hardware of ULA is
 	
 	component Mux_8X1
 		port(
-			Adder_Out, Sub_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);
+			Adder_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);
 			s: in std_logic_vector(2 downto 0);
 			Q: out std_logic_vector(7 downto 0)		
 		);

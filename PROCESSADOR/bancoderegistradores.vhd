@@ -55,7 +55,7 @@ begin
 	 reg14 : Registrador8bits port map(X=>w_data,ld=>add_out_w(14),clr=>clr,clk=>clk,Q=>q14);
 	 reg15 : Registrador8bits port map(X=>w_data,ld=>add_out_w(15),clr=>clr,clk=>clk,Q=>q15);
 	 
-	 r1_0 : multiplexador port map(x(0)=>q0(0),x(1)=>q1(0),x(2)=>q2(0),x(3)=>q3(0),x(4)=>q4(0),x(5)=>q4(0),x(6)=>q6(0),x(7)=>q7(0),
+	 r1_0 : multiplexador port map(x(0)=>q0(0),x(1)=>q1(0),x(2)=>q2(0),x(3)=>q3(0),x(4)=>q4(0),x(5)=>q5(0),x(6)=>q6(0),x(7)=>q7(0),
 	                               x(8)=>q8(0),x(9)=>q9(0),x(10)=>q10(0),x(11)=>q11(0),x(12)=>q12(0),x(13)=>q13(0),x(14)=>q14(0),x(15)=>q15(0),
 											 en=>add_out_r_1,Q=>r_data_1(0));
     r1_1 : multiplexador port map(x(0)=>q0(1),x(1)=>q1(1),x(2)=>q2(1),x(3)=>q3(1),x(4)=>q4(1),x(5)=>q4(1),x(6)=>q6(1),x(7)=>q7(1),

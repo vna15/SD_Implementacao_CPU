@@ -7,7 +7,7 @@ use IEEE.std_logic_1164.all;
 
 entity Mux_8X1 is port
 (
-	Adder_Out, Sub_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);  	-- Entradas do Mux.
+	Adder_Out, And_Out, Or_Out, Not_Out, Xor_Out, Cmp_Out: in std_logic_vector(7 downto 0);  	-- Entradas do Mux.
 	s: in std_logic_vector(2 downto 0);																						-- Sinais Seletores.
 	Q: out std_logic_vector(7 downto 0)																						-- Saída do Mux.
 );
