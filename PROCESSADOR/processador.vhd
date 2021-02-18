@@ -144,7 +144,7 @@ ula_or <= aux_out_ULA(0) or aux_out_ULA(1) or aux_out_ULA(2) or aux_out_ULA(3) o
 -- regULA : ffd port map( aux_flagULA_ld, ula_or, '1', aux_flagULA_clr, aux_flagULA);
 regULA : Registrador1bit port map( ula_or, aux_flagULA_ld, aux_flagULA_clr, clk, aux_flagULA);
 
-mux31 : mux3x1 port map(aux_REGB, aux_memo_data, aux_out_ULA, aux_SEL_RF, aux_out_mux31);
+mux31 : mux3x1 port map(aux_REGC, aux_memo_data, aux_out_ULA, aux_SEL_RF, aux_out_mux31);
 
 mux21WR : mux2x1C port map(aux_IR(7 downto 4), aux_IR(11 downto 8), aux_SEL_addr_RF_escrita, aux_mux_WR);
 
