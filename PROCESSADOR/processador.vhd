@@ -5,7 +5,8 @@ entity processador is
     port (clk : in std_logic;
 	       estadoAtual : out std_logic_vector(4 downto 0);
 			 IR : out std_logic_vector(15 downto 0);
-			ULA_out: out std_logic_vector(7 downto 0));
+			ULA_out: out std_logic_vector(7 downto 0);
+			entraMemo : out std_logic_vector(15 downto 0));
 end processador;
 
 architecture ckt of processador is
@@ -19,7 +20,7 @@ end component;
 
 component mde is
     port ( ck ,opHLT, opLDR, opSTR, opMOV, opADD, opSUB, opAND, opOR, opNOT, opXOR, opCMP, opJMP, opJNC,opJC,opJNZ,opJZ,flagCarry,flagULA   : in std_logic;
-         SEL_addr_RF_escrita,SEL_RF_2_SUM,SEL_RF_leitura_1,en_RF_leitura_1,en_RF_leitura_2,en_RF_escrita,D_en,D_wr,flagCarry_ld,flagCarry_clr,flagULA_ld,flagULA_clr,PC_cnt,PC_ld,PC_clr,IR_ld,I_rd : out std_logic;
+         SEL_addr_RF_escrita,SEL_RF_2_SUM,SEL_RF_leitura_1,en_RF_leitura_1,en_RF_leitura_2,en_RF_escrita,D_en,D_wr,flagCarry_ld,flagCarry_clr,flagULA_ld,flagULA_clr,PC_cnt,PC_ld,PC_clr,IR_ld,I_rd, junt_ld : out std_logic;
           SEL_RF   : out std_logic_vector (1 downto 0);
           SEL_ULA  : out std_logic_vector (2 downto 0);
 			 estadoAtual : out std_logic_vector(4 downto 0)
@@ -42,6 +43,12 @@ component Registrador1bit is
   port (X : in  std_logic;
         ld, clr, clk : in std_logic;
         Q : out std_logic);
+end component;
+
+component Registrador8bits is
+  port (X : in  std_logic_vector (7 downto 0);
+        ld, clr, clk : in std_logic;
+        Q : out std_logic_vector (7 downto 0));
 end component;
 
 component decodificador is
@@ -110,10 +117,10 @@ END component;
 
 
 signal aux_opHLT, aux_opLDR, aux_opSTR, aux_opMOV, aux_opADD, aux_opSUB, aux_opAND, aux_opOR, aux_opNOT, aux_opXOR, aux_opCMP, aux_opJMP, aux_opJNC, aux_opJC, aux_opJNZ, aux_opJZ, aux_flagCarry, aux_flagULA, aux_carry, aux_out_carry, ula_or : std_logic;
-signal aux_SEL_addr_RF_escrita, aux_SEL_RF_2_SUM, aux_SEL_RF_leitura_1, aux_en_RF_leitura_1, aux_en_RF_leitura_2, aux_en_RF_escrita, aux_D_en, aux_D_wr, aux_flagCarry_ld, aux_flagCarry_clr, aux_flagULA_ld, aux_flagULA_clr, aux_PC_cnt, aux_PC_ld, aux_PC_clr, aux_IR_ld, aux_I_rd : std_logic;
+signal aux_SEL_addr_RF_escrita, aux_SEL_RF_2_SUM, aux_SEL_RF_leitura_1, aux_en_RF_leitura_1, aux_en_RF_leitura_2, aux_en_RF_escrita, aux_D_en, aux_D_wr, aux_flagCarry_ld, aux_flagCarry_clr, aux_flagULA_ld, aux_flagULA_clr, aux_PC_cnt, aux_PC_ld, aux_PC_clr, aux_IR_ld, aux_I_rd, aux_junt_ld : std_logic;
 signal aux_SEL_RF : std_logic_vector(1 downto 0);
 signal aux_SEL_ULA : std_logic_vector(2 downto 0);
-signal aux_instrucao, aux_REGB, aux_REGC, aux_out_ULA, aux_memo_data, aux_out_mux31 : std_logic_vector(7 downto 0);
+signal aux_instrucao, aux_REGB, aux_REGC, aux_out_ULA, aux_memo_data, aux_out_mux31, out_juntar : std_logic_vector(7 downto 0);
 signal aux_mux_WR, aux_mux_RD : std_logic_vector(3 downto 0);
 signal data_memoInst, aux_IR : std_logic_vector(15 downto 0);
 
@@ -127,7 +134,7 @@ decodeOP : decodificador port map(aux_IR(15 downto 12), '1', Q(0) => aux_opHLT, 
 
 
 blocoControle : mde port map(clk, aux_opHLT, aux_opLDR, aux_opSTR, aux_opMOV, aux_opADD, aux_opSUB, aux_opAND, aux_opOR, aux_opNOT, aux_opXOR, aux_opCMP, aux_opJMP, aux_opJNC, aux_opJC, aux_opJNZ, aux_opJZ, aux_out_carry, aux_flagULA,
-                             aux_SEL_addr_RF_escrita, aux_SEL_RF_2_SUM, aux_SEL_RF_leitura_1, aux_en_RF_leitura_1, aux_en_RF_leitura_2, aux_en_RF_escrita, aux_D_en, aux_D_wr, aux_flagCarry_ld, aux_flagCarry_clr, aux_flagULA_ld, aux_flagULA_clr, aux_PC_cnt, aux_PC_ld, aux_PC_clr, aux_IR_ld, aux_I_rd,
+                             aux_SEL_addr_RF_escrita, aux_SEL_RF_2_SUM, aux_SEL_RF_leitura_1, aux_en_RF_leitura_1, aux_en_RF_leitura_2, aux_en_RF_escrita, aux_D_en, aux_D_wr, aux_flagCarry_ld, aux_flagCarry_clr, aux_flagULA_ld, aux_flagULA_clr, aux_PC_cnt, aux_PC_ld, aux_PC_clr, aux_IR_ld, aux_I_rd, aux_junt_ld,
 									  aux_SEL_RF, aux_SEL_ULA, estadoAtual);
 									  
 contadorPrograma : contadordeprograma port map(aux_pc_cnt, aux_pc_clr, clk, aux_pc_ld, aux_IR(7 downto 0), aux_instrucao);
@@ -158,6 +165,11 @@ memoDados : memoData port map(aux_IR(7 downto 0), clk, aux_REGB, aux_D_wr, aux_m
 
 IR <= aux_IR;
 ULA_out <= aux_out_ULA;
+
+juntar : registrador8bits port map(aux_REGB, aux_junt_ld, '1', clk, out_juntar);
+
+entraMemo(15 downto 8) <= out_juntar;
+entraMemo(7 downto 0) <= aux_REGB;
 
 end ckt;
 
