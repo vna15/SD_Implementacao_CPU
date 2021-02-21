@@ -51,7 +51,7 @@ Rh,Rj // registrador Temporário
 22: ADD Ra, Ra, Rg// incrementa no registrador mais alto
 23: SUB Rd, Rd, Rg// subtrai um da quantidade de vezes que ainda precisa multiplicar. 
 24: JMP 18 // reinicia a rotina
-25: CMP Ri,Rg // compara registrador de sinal com 1
+25: CMP Rh, Ri, Rg // compara registrador de sinal com 1
 26: JZ 32 // Se o resultado é positivo é só salvar na memória
 27: NOT Ra,Ra // Começa o complemento a dois do resultado
 28: NOT Rb,Rb // Nega registrador mais baixo
